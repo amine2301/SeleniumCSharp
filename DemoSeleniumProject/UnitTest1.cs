@@ -21,9 +21,7 @@ namespace DemoSeleniumProject
             Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
             Driver.FindElement(By.Id("btnCookie")).Click();
             Driver.FindElement(By.XPath("//div[@class='awe-display o-ochk']/ul/li[1]")).Click();
-
             CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "ContentPlaceHolder1_AllMealsCombo-dropmenu", "Almond");
-
             Console.WriteLine("Test Completed !!!");
             Assert.Pass();
         }
