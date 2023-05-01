@@ -18,10 +18,19 @@ namespace DemoSeleniumProject
         public void Test1()
         {
             Driver.Navigate().GoToUrl("http://demowf.aspnetawesome.com");
-            Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
-            Driver.FindElement(By.Id("btnCookie")).Click();
-            Driver.FindElement(By.XPath("//div[@class='awe-display o-ochk']/ul/li[1]")).Click();
+            //Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
+            CustomControl.EnterText(Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")), "Tomato");
+
+            //Driver.FindElement(By.Id("btnCookie")).Click();
+            CustomControl.Click(Driver.FindElement(By.Id("btnCookie")));
+
+            //Driver.FindElement(By.XPath("//div[@class='awe-display o-ochk']/ul/li[1]")).Click();
+            CustomControl.Click(Driver.FindElement(By.XPath("//div[@class='awe-display o-ochk']/ul/li[1]")));
+
+            CustomControl.SelectByText(Driver.FindElement(By.Id("ContentPlaceHolder1_Add1-awed")), "Artichoke");
+
             CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "ContentPlaceHolder1_AllMealsCombo-dropmenu", "Almond");
+       
             Console.WriteLine("Test Completed !!!");
             Assert.Pass();
         }

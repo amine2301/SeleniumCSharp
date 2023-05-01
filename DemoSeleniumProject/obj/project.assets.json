@@ -1106,11 +1106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amine\\source\\repos\\DemoSeleniumProject\\DemoSeleniumProject\\DemoSeleniumProject.csproj",
+      "projectUniqueName": "C:\\Users\\Amine\\Documents\\GitHub\\SeleniumCSharp\\DemoSeleniumProject\\DemoSeleniumProject.csproj",
       "projectName": "DemoSeleniumProject",
-      "projectPath": "C:\\Users\\Amine\\source\\repos\\DemoSeleniumProject\\DemoSeleniumProject\\DemoSeleniumProject.csproj",
+      "projectPath": "C:\\Users\\Amine\\Documents\\GitHub\\SeleniumCSharp\\DemoSeleniumProject\\DemoSeleniumProject.csproj",
       "packagesPath": "C:\\Users\\Amine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amine\\source\\repos\\DemoSeleniumProject\\DemoSeleniumProject\\obj\\",
+      "outputPath": "C:\\Users\\Amine\\Documents\\GitHub\\SeleniumCSharp\\DemoSeleniumProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amine\\AppData\\Roaming\\NuGet\\NuGet.Config",
